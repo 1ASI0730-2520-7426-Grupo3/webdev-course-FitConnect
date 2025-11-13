@@ -85,3 +85,9 @@ NRC 7426
 **Fecha de entrega**: 13/11/2025
 
 
+##En este repositorio encontrarás:
+
+ - `starter-files/`: archivos base para que los estudiantes comiencen cada práctica.
+ - `completed-examples/`: ejemplos completos de las soluciones de cada lección.
+ - `scripts/`: scripts de apoyo para demos o ejemplos adicionales.
+
