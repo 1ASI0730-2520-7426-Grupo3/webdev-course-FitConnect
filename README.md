@@ -60,7 +60,7 @@ requiere descargas!** Solo abre tu navegador web.
 | 4         | Estilo de la página  | [CodePen](https://codepen.io/your-lesson4) |
 | 5         | Página de perfil     | [Replit](https://replit.com/@your-lesson5) |
 
-- Cuestionario: [Pon a prueba tus conocimientos](https://forms.gle/your-quiz)  
+- Cuestionario: [Pon a prueba tus conocimientos](https://forms.gle/afvJYFdTYZjE371x7)  
 - Compartir: #WebDevBeginners
 
 **¡Gracias por completar el curso!**
@@ -83,4 +83,5 @@ NRC 7426
  - Juan David Saldaña De Souza
    
 **Fecha de entrega**: 13/11/2025
+
 
