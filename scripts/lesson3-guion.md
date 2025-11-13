@@ -14,4 +14,4 @@ Pasos sugeridos:
 6. Crear un `<figure>` con una imagen y un `<figcaption>`.
 7. Agregar un enlace externo a la documentación de HTML (por ejemplo MDN).
 8. Agregar un enlace interno que use `href="#acerca"` para volver a la sección "Acerca de mi".
-9. Mostrar la solución final en `completed-examples/lesson3.html`.
+9. Mostrar la solución final en `completed-examples/lesson3-Common_Elements.html`.
