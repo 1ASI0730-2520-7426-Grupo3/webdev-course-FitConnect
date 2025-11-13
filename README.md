@@ -81,4 +81,6 @@ NRC 7426
  - Wilder Gonzalo Aliaga Urbina
  - Oliver Paul Villogas Medina 
  - Juan David Saldaña De Souza
+   
 **Fecha de entrega**: 13/11/2025
+
