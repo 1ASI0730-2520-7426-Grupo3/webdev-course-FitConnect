@@ -1,0 +1,16 @@
+:root {
+  --bg: white;       
+  --text: black;     
+  --muted: dimgray;  
+  --brand: royalblue; 
+  --accent: orange;   
+}
+
+
+html { 
+  box-sizing: border-box; 
+}
+
+*, *::before, *::after { 
+  box-sizing: inherit; 
+}

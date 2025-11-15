@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box; 
+}
+*, *::before, *::after { 
+    box-sizing: inherit; 
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 24px;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  background: yellow;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.card h2 {
+  text-align: center;
+  color: blue;
+}
+
+.card p {
+  text-align: justify;
+  color: orange;
+}
