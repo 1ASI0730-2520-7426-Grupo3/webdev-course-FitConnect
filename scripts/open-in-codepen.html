@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Launcher — 6 Sesiones (CodePen)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; margin: 24px; line-height: 1.5; }
+    h1 { margin-bottom: 8px; }
+    .desc { color: dimgray; margin-bottom: 16px; }
+    .lesson { border: 1px solid gainsboro; padding: 12px; border-radius: 8px; margin: 12px 0; background: whitesmoke; }
+    button { padding: 10px 14px; border-radius: 10px; border: 1px solid gainsboro; cursor: pointer; background: white; }
+    button:hover { background: whitesmoke; }
+  </style>
+</head>
+<body>
+  <h1>Prácticas precargadas — 6 sesiones</h1>
+  <p class="desc">Haz clic para abrir un editor online con el código inicial de cada lección.</p>
+
+  <!-- Lección 1 -->
+  <section class="lesson">
+    <h2>Lección 1 — Estructura HTML</h2>
+    <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+      <input type="hidden" name="data" value="{&quot;title&quot;: &quot;Lección 1 — Estructura HTML&quot;, &quot;html&quot;: &quot;&lt;!doctype html&gt;\n&lt;html lang=\&quot;es\&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=\&quot;utf-8\&quot;&gt;\n  &lt;title&gt;Lección 1 — Estructura HTML&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;header&gt;&lt;h1&gt;¡Hola, Web!&lt;/h1&gt;&lt;/header&gt;\n  &lt;main&gt;\n    &lt;p&gt;Este es el esqueleto básico de una página en HTML5.&lt;/p&gt;\n  &lt;/main&gt;\n  &lt;footer&gt;&lt;small&gt;Página simple.&lt;/small&gt;&lt;/footer&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;, &quot;css&quot;: &quot;&quot;, &quot;editors&quot;: &quot;100&quot;}">
+      <button type="submit">Abrir en CodePen</button>
+    </form>
+  </section>
+
+  <!-- Lección 2 -->
+  <section class="lesson">
+    <h2>Lección 2 — Texto, Imágenes y Enlaces</h2>
+    <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+      <input type="hidden" name="data" value="{&quot;title&quot;: &quot;Lección 2 — Texto, Imágenes y Enlaces&quot;, &quot;html&quot;: &quot;&lt;!doctype html&gt;\n&lt;html lang=\&quot;es\&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=\&quot;utf-8\&quot;&gt;\n  &lt;title&gt;Lección 2 — Texto, Imágenes y Enlaces&lt;/title&gt;\n  &lt;link rel=\&quot;stylesheet\&quot; href=\&quot;styles.css\&quot;&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;h1&gt;Mi Perfil&lt;/h1&gt;\n  &lt;h2&gt;Sobre mí&lt;/h2&gt;\n  &lt;p&gt;Me gustan la tecnología y el diseño.&lt;/p&gt;\n  &lt;img src=\&quot;https://picsum.photos/seed/lesson2/480/300\&quot; alt=\&quot;Imagen aleatoria\&quot;&gt;\n  &lt;p&gt;Visita &lt;a href=\&quot;https://developer.mozilla.org/\&quot;&gt;MDN Web Docs&lt;/a&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;, &quot;css&quot;: &quot;img { max-width: 100%; height: auto; display: block; }&quot;, &quot;editors&quot;: &quot;110&quot;}">
+      <button type="submit">Abrir en CodePen</button>
+    </form>
+  </section>
+
+  <!-- Lección 3 -->
+  <section class="lesson">
+    <h2>Lección 3 — Listas y Navegación</h2>
+    <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+      <input type="hidden" name="data" value="{&quot;title&quot;: &quot;Lección 3 — Listas y Navegación&quot;, &quot;html&quot;: &quot;&lt;!doctype html&gt;\n&lt;html lang=\&quot;es\&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=\&quot;utf-8\&quot;&gt;\n  &lt;title&gt;Lección 3 — Listas y Navegación&lt;/title&gt;\n  &lt;link rel=\&quot;stylesheet\&quot; href=\&quot;styles.css\&quot;&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;nav&gt;\n    &lt;ul class=\&quot;menu\&quot;&gt;\n      &lt;li&gt;&lt;a href=\&quot;#inicio\&quot;&gt;Inicio&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\&quot;#proyectos\&quot;&gt;Proyectos&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\&quot;#contacto\&quot;&gt;Contacto&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n  &lt;section id=\&quot;inicio\&quot;&gt;&lt;h2&gt;Inicio&lt;/h2&gt;&lt;p&gt;Bienvenido.&lt;/p&gt;&lt;/section&gt;\n  &lt;section id=\&quot;proyectos\&quot;&gt;&lt;h2&gt;Proyectos&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Proyecto 1&lt;/li&gt;&lt;li&gt;Proyecto 2&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;\n  &lt;section id=\&quot;contacto\&quot;&gt;&lt;h2&gt;Contacto&lt;/h2&gt;&lt;p&gt;correo@ejemplo.com&lt;/p&gt;&lt;/section&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;, &quot;css&quot;: &quot;.menu { list-style: none; padding: 0; display: flex; gap: 1rem; } .menu a { text-decoration: none; }&quot;, &quot;editors&quot;: &quot;110&quot;}">
+      <button type="submit">Abrir en CodePen</button>
+    </form>
+  </section>
+
+  <!-- Lección 4 -->
+  <section class="lesson">
+    <h2>Lección 4 — CSS básico con :root</h2>
+    <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+      <input type="hidden" name="data" value="{&quot;title&quot;: &quot;Lección 4 — CSS básico con :root&quot;, &quot;html&quot;: &quot;&lt;!doctype html&gt;\n&lt;html lang=\&quot;es\&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=\&quot;utf-8\&quot;&gt;\n  &lt;title&gt;Lección 4 — CSS básico con :root&lt;/title&gt;\n  &lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1\&quot;&gt;\n  &lt;link rel=\&quot;stylesheet\&quot; href=\&quot;styles.css\&quot;&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;header&gt;\n    &lt;h1 title=\&quot;Título principal\&quot;&gt;Mi primera web&lt;/h1&gt;\n    &lt;p class=\&quot;subtitulo\&quot;&gt;Aprendiendo &lt;strong&gt;HTML&lt;/strong&gt; + &lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;\n  &lt;/header&gt;\n  &lt;main id=\&quot;inicio\&quot;&gt;\n    &lt;section id=\&quot;presentacion\&quot;&gt;\n      &lt;h2&gt;Presentación&lt;/h2&gt;\n      &lt;p&gt;Probando colores, letras y espacios con CSS.&lt;/p&gt;\n      &lt;img src=\&quot;https://picsum.photos/seed/lesson4/500/280\&quot; alt=\&quot;Paisaje con montañas\&quot;&gt;\n    &lt;/section&gt;\n    &lt;section id=\&quot;recursos\&quot;&gt;\n      &lt;h2&gt;Recursos útiles&lt;/h2&gt;\n      &lt;p&gt;Más en &lt;a href=\&quot;https://developer.mozilla.org/es/docs/Web/CSS\&quot;&gt;MDN CSS&lt;/a&gt;.&lt;/p&gt;\n    &lt;/section&gt;\n  &lt;/main&gt;\n  &lt;footer&gt;&lt;small&gt;Práctica de CSS básica.&lt;/small&gt;&lt;/footer&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;, &quot;css&quot;: &quot;:root { --bg: white; --text: black; --muted: dimgray; --brand: royalblue; --accent: orange; }\nhtml { box-sizing: border-box; } *, *::before, *::after { box-sizing: inherit; }\nbody { margin: 0; font-family: system-ui, -apple-system, \&quot;Segoe UI\&quot;, Roboto, Arial, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); }\nmain { max-width: 860px; margin: 24px auto; padding: 0 16px; }\nheader { padding: 20px 16px; background: whitesmoke; }\nfooter { padding: 16px; text-align: center; color: var(--muted); background: whitesmoke; }\nh1, h2 { line-height: 1.25; margin: 0 0 12px; } h1 { color: var(--brand); font-size: 2rem; } h2 { font-size: 1.35rem; }\n.subtitulo { margin: 6px 0 0; color: var(--muted); } p { margin: 0 0 12px; }\na { color: var(--brand); text-decoration: underline; } a:hover { text-decoration: none; }\nimg { max-width: 100%; height: auto; display: block; margin: 8px 0; }\n#presentacion { margin-top: 12px; } #recursos { margin-top: 16px; }\n:focus { outline: 3px solid var(--accent); outline-offset: 2px; }&quot;, &quot;editors&quot;: &quot;110&quot;}">
+      <button type="submit">Abrir en CodePen</button>
+    </form>
+  </section>
+
+  <!-- Lección 5 -->
+  <section class="lesson">
+    <h2>Lección 5 — Box Model básico</h2>
+    <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+      <input type="hidden" name="data" value="{&quot;title&quot;: &quot;Lección 5 — Box Model básico&quot;, &quot;html&quot;: &quot;&lt;!doctype html&gt;\n&lt;html lang=\&quot;es\&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=\&quot;utf-8\&quot;&gt;\n  &lt;title&gt;Lección 5 — Box Model básico&lt;/title&gt;\n  &lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1\&quot;&gt;\n  &lt;link rel=\&quot;stylesheet\&quot; href=\&quot;styles.css\&quot;&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;header&gt;&lt;h1&gt;Box Model&lt;/h1&gt;&lt;/header&gt;\n  &lt;main&gt;\n    &lt;h2&gt;Bloques con padding y margin&lt;/h2&gt;\n    &lt;div class=\&quot;bloque\&quot;&gt;Bloque A&lt;/div&gt;\n    &lt;div class=\&quot;bloque\&quot;&gt;Bloque B&lt;/div&gt;\n    &lt;div class=\&quot;bloque\&quot;&gt;Bloque C&lt;/div&gt;\n  &lt;/main&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;, &quot;css&quot;: &quot;:root { --bg: white; --text: black; --brand: royalblue; --muted: dimgray; }\nhtml { box-sizing: border-box; } *, *::before, *::after { box-sizing: inherit; }\nbody { margin: 0; font-family: system-ui, -apple-system, \&quot;Segoe UI\&quot;, Roboto, Arial, sans-serif; color: var(--text); background: var(--bg); }\nheader { padding: 16px; background: whitesmoke; }\nh1 { color: var(--brand); margin: 0; }\nmain { max-width: 860px; margin: 24px auto; padding: 0 16px; }\n.bloque { background: whitesmoke; padding: 12px; margin: 10px 0; border: 1px solid gainsboro; }&quot;, &quot;editors&quot;: &quot;110&quot;}">
+      <button type="submit">Abrir en CodePen</button>
+    </form>
+  </section>
+
+  <!-- Lección 6 -->
+  <section class="lesson">
+    <h2>Lección 6 — Mini Proyecto</h2>
+    <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+      <input type="hidden" name="data" value="{&quot;title&quot;: &quot;Lección 6 — Mini Proyecto&quot;, &quot;html&quot;: &quot;&lt;!doctype html&gt;\n&lt;html lang=\&quot;es\&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=\&quot;utf-8\&quot;&gt;\n  &lt;title&gt;Lección 6 — Mini Proyecto&lt;/title&gt;\n  &lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1\&quot;&gt;\n  &lt;link rel=\&quot;stylesheet\&quot; href=\&quot;styles.css\&quot;&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;header&gt;&lt;h1&gt;Mi Página&lt;/h1&gt;&lt;/header&gt;\n  &lt;main&gt;\n    &lt;section&gt;&lt;h2&gt;Sobre mí&lt;/h2&gt;&lt;p&gt;Pequeña biografía de 3–4 líneas.&lt;/p&gt;&lt;/section&gt;\n    &lt;section&gt;&lt;h2&gt;Proyectos&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Proyecto A&lt;/li&gt;&lt;li&gt;Proyecto B&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;\n    &lt;section&gt;&lt;h2&gt;Contacto&lt;/h2&gt;&lt;p&gt;correo@ejemplo.com&lt;/p&gt;&lt;/section&gt;\n  &lt;/main&gt;\n&lt;/body&gt;\n&lt;/html&gt;&quot;, &quot;css&quot;: &quot;:root { --bg: white; --text: black; --brand: royalblue; --muted: dimgray; }\nbody { margin: 0; font-family: system-ui, -apple-system, \&quot;Segoe UI\&quot;, Roboto, Arial, sans-serif; color: var(--text); background: var(--bg); }\nheader { padding: 16px; background: whitesmoke; }\nh1 { color: var(--brand); margin: 0; }\nmain { max-width: 860px; margin: 24px auto; padding: 0 16px; }\nsection { margin: 12px 0; }\nul { padding-left: 20px; }&quot;, &quot;editors&quot;: &quot;110&quot;}">
+      <button type="submit">Abrir en CodePen</button>
+    </form>
+  </section>
+
+</body>
+</html>

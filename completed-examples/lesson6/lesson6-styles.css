@@ -1,0 +1,120 @@
+/* (Punto 4: Selectores) - Estilo para todo el cuerpo de la página */
+/* En CodePen, esto estiliza la vista previa, aunque <body> no esté en el panel HTML */
+body {
+    /* (Punto 4: Propiedad de fuente) - Usamos fuentes limpias */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    
+    /* (Punto 4: Propiedad de color) - Un fondo gris claro */
+    background-color: #f4f4f9;
+    
+    /* (Punto 4: Propiedad de color) - Color de texto principal */
+    color: #333;
+    
+    /* (Punto 5: Centrar) - Añadimos algo de espacio alrededor */
+    margin: 0;
+    padding: 20px;
+}
+
+/* (Punto 4: Selectores) - Usamos una clase para la tarjeta principal */
+.tarjeta-perfil {
+    /* Limitamos el ancho para que no sea demasiado grande en pantallas anchas */
+    max-width: 700px;
+    
+    /* (Punto 5: Centrar) - Centramos la tarjeta en la página */
+    margin: 0 auto;
+    
+    /* (Punto 4: Color) - Fondo blanco para la tarjeta */
+    background-color: #ffffff;
+    
+    /* (Punto 5: Bordes) - Añadimos un borde sutil */
+    border: 1px solid #ddd;
+    
+    /* (Punto 5: Bordes) - Esquinas redondeadas */
+    border-radius: 10px;
+    
+    /* Una sombra suave para que "flote" */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    
+    /* Espacio interno para que el contenido no toque los bordes */
+    padding: 30px;
+}
+
+/* Estilo para el encabezado dentro de la tarjeta */
+.tarjeta-perfil header {
+    /* (Punto 5: Centrar) - Centramos el texto del encabezado */
+    text-align: center;
+    
+    /* (Punto 5: Bordes) - Una línea para separar el encabezado */
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* (Punto 3: Encabezados) - Estilo para el H1 */
+.tarjeta-perfil h1 {
+    /* (Punto 4: Color) - Un color de acento */
+    color: #2c5282;
+    margin: 0;
+}
+
+/* Estilo para el subtítulo */
+.tarjeta-perfil .subtitulo {
+    color: #777;
+    font-size: 1.1em;
+    margin: 5px 0 0;
+}
+
+/* (Punto 3: Imágenes) - Estilo para la imagen de perfil */
+.tarjeta-perfil img {
+    /* (Punto 5: Centrar) - La centramos con 'margin: auto' y 'display: block' */
+    display: block;
+    margin: 20px auto;
+    
+    /* Hacemos la imagen circular */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+    /* (Punto 5: Bordes) - Un borde de color alrededor de la foto */
+    border: 4px solid #60a5fa;
+    
+    /* Evita que la imagen se estire si no es cuadrada */
+    object-fit: cover; 
+}
+
+/* (Punto 3: Encabezados) - Estilo para los H2 */
+.tarjeta-perfil h2 {
+    /* (Punto 4: Color) - Otro color de acento */
+    color: #3b82f6;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 5px;
+}
+
+/* (Punto 3: Listas) - Estilo para la lista */
+.tarjeta-perfil ul {
+    /* Quitamos el padding por defecto para alinearla */
+    padding-left: 20px;
+    list-style-type: square; /* Cambiamos el estilo de la viñeta */
+}
+
+/* (Punto 3: Enlaces) - Estilo para los enlaces */
+.tarjeta-perfil a {
+    color: #3b82f6;
+    text-decoration: none; /* Quitamos el subrayado */
+    font-weight: bold;
+}
+
+/* (Punto 4: Selectores) - pseudo-clase para el estado 'hover' */
+.tarjeta-perfil a:hover {
+    text-decoration: underline; /* Añadimos subrayado al pasar el ratón */
+}
+
+/* Estilo para el pie de página */
+.tarjeta-perfil footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
